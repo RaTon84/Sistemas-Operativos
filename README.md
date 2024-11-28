@@ -3,6 +3,11 @@
 </div>  
 
 # Sistemas Operativos
-- 
+- Estructura
+- Gestion de procesos
+- Threads, planificacion
+- Sincronizacion e interbloqueos de procesos
+- Gestion de memoria fisica y virtual
+- Gestion de almacenamiento
 ## Practicos y parciales
 2do Cuatrimestre 2024
