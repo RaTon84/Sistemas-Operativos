@@ -1,0 +1,4 @@
+
+gcc (archivo.c) - o (archivo(salida)) // compilar el archivo c para ejecutar despues la salida compilado
+
+./archivo(compilado)  //ejecutar el archivo

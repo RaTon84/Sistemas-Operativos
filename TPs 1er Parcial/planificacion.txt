@@ -1,0 +1,68 @@
+
+FCFS
+	va por orden de llegada, ejecuta hasta que termine el procesos
+
+SJF (con desalojo)
+	da prioridad a los procesos mas cortos para ponerlos en !!ejecucion!! desalojando los procesos largos (ordena la cola de proecsos en ejecucion)
+
+SJF (si desalojo)
+	slo cambia en los preparados poner como primero el mas corto de tiempo(oredna la cola de preparados)
+
+Round robin (de a cuantos)
+	interrumpir por mediada de tiempo (Q=tiempo)
+
+VRR TIENEN UN CUANTO Y EL TERMINO DE UN I/O LO PONE PRIMERO EN EJECUCION
+
+
+
+
+Proceso 1
+variable_local d = 1;
+
+While (TRUE){
+	
+	wait(sem_A);
+
+	a = a + d;
+
+	a = a * d;
+
+	signal(sem_A);
+	
+	sleep(10000);
+	
+	wait(sem_B);
+
+	b = b – d;
+	
+	signal(sem_B);
+}
+
+
+Proceso 2
+
+variable_local e = 2;
+
+ 
+
+While (TRUE){
+
+ 
+
+b = b * e;
+
+ 
+
+sleep(10000)
+
+
+
+e = e ^ e;
+
+ 
+
+a++;
+
+ 
+
+}
